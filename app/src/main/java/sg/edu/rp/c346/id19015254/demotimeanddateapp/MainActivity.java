@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         btnDisplayDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tvDisplay.setText("Date is " + dp.getDayOfMonth() + "/" + dp.getMonth() + "/" + dp.getYear());
+                tvDisplay.setText("Date is " + dp.getDayOfMonth() + "/" + dp.getMonth() + 1 + "/" + dp.getYear());
             }
         });
 
